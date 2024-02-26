@@ -1,0 +1,324 @@
+@media (max-width:475px) {
+
+    /* .firstbar{
+padding-top: 12px;
+padding-bottom: -50px;
+} */
+
+    body {
+        font-family: Verdana, Geneva, Tahoma, ;
+    }
+
+    .container-fluid {
+        transform: translateY(12px);
+    }
+
+    .navbar-toggler {
+        display: none;
+    }
+
+    .need span {
+
+        font-weight: 600;
+        color: white;
+        transform: translateX(-160px);
+    }
+
+    .firstbar span a {
+        display: block;
+        transform: translate(100px, -9px);
+    }
+
+    .naija {
+
+        transform: translate(180px, -32px);
+
+    }
+
+    .printivobg {}
+
+    .valentine img {
+        display: none;
+    }
+
+    .printnav img {
+        transform: translateX(-60px);
+    }
+
+
+    .printnav ul,
+    .printnav a {
+        display: none;
+
+    }
+
+    .printnav button {
+        color: #507683;
+        transform: translateX(-30px);
+
+    }
+
+    .button-a {
+        transform: translate(50px, 0px);
+
+    }
+
+    .button-a img {
+        transform: translateX(0px);
+    }
+
+    .menu {
+        display: inline-block;
+        background-color: white;
+        padding: 5px;
+        transform: translate(20px, 50px);
+
+
+    }
+
+    .menu a {
+        text-decoration: none;
+        color: black;
+        font-weight: 500;
+    }
+
+    .valentine h2 {
+        font-size: 28px;
+        line-height: 30px;
+        width: 67.6%;
+        transform: translate(20px, 80px);
+    }
+
+    .valentine label {
+        transform: translate(20px, 61px);
+
+    }
+
+    .valentine input {
+        transform: translate(20px, 70px);
+        width: 85%;
+        height: 50px;
+
+    }
+
+
+    .popular {
+
+        /* border: 1x solid yellowgreen; */
+        margin: 40px 20px;
+    }
+
+    .popularheading h3 {
+        font-size: 20px;
+        line-height: 36px;
+        font-weight: 600;
+        color: #384a62;
+        line-height: 35px;
+    }
+
+
+
+    .popularcategories{
+    
+        /* border: 1x solid yellowgreen; */
+        margin: 40px 20px;
+        
+    
+    }
+    
+    .subcategories{
+        display: flex;
+        align-content: center;
+        justify-content: space-between;
+    }
+    
+    .subcategories h3{
+        font-size: 20px;
+        line-height: 36px;
+        font-weight: 600;
+        color: #384a62;
+        line-height: 35px;
+    }
+    
+    .subcategories a{
+        text-decoration: none;
+        color: #d77f81;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 35px;
+        margin-right: 9px;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+    .partners img {
+        width: 100%;
+    }
+
+    .customer{
+        height: 750px;
+    }
+
+    .customer h1 {
+
+        transform: translate(20px, 40px);
+        width: 70%;
+
+    }
+
+    .twitter-reviews {
+        flex-direction: column;
+
+    }
+
+    .thereviews {
+        width: 85%;
+        background-color: white;
+        transform: translate(20px, 40px);
+        border-radius: 5px;
+        padding: 3px 4px 3px 15px;
+
+    }
+
+    .number-one{
+        margin-left: 20px;
+        margin-top: 100px;
+        margin-right: 20px;
+    }
+    
+    .number-one h2{
+        color: #384a62;
+        font-size: 30px;
+        line-height: 36px;
+        font-weight: 550;
+    }
+    
+    .number-one p{
+        font-size: 18px;
+        width: 90%;
+        word-spacing: 1.4px;
+    }
+
+    .gba-countable{
+        transform: translate(20px , 120px);
+        margin-right: 80px;
+    }
+    
+    .gba-countable h2{
+        color: #384a62;
+        font-size: 30px;
+        line-height: 36px;
+        margin-bottom: 16px;
+        font-weight: 550;
+    }
+    
+    .sub-uncountable{
+        flex-direction: column;
+    }
+    
+    .countofthree{
+        width: 80%;
+    }
+    
+    .count-holdings{
+        transform: translate(20px , 30px);
+    }
+    
+    .count-holdings h4{
+        color: #384a62;
+        font-size: 16px;
+        line-height: 22px;
+        margin-top: -15px;
+        font-weight: 600;
+    }
+    
+    .count-holdings p{
+        color: #677f9e;
+        font-size: 16px;
+        line-height: 23px;
+        font-weight: 400;
+        width: 95%;
+        
+    }
+
+    .soft-work{
+        background-color: #F6F6F4;
+        margin-top: 160px;
+        height: 650px;
+    }
+    
+    .oga-amazed{
+        transform: translate(20px , 100px);
+    }
+    
+    .oga-amazed h3{
+        
+        width: 90%;
+    }
+    
+    .amazed{
+        flex-direction: column;
+    }
+    
+    .sub-amazed{
+        width: 40%;
+    }
+    
+
+    .darker-than-blue{
+        background-color: #384A62;
+        height: 1000px;
+        
+    }
+    
+    .dark-blue{
+        transform: translate(20px , 50px);
+        flex-direction: column;
+        gap: 30px;
+
+        
+    }
+    
+    .sub-dark-blue h4{
+    color: #ece8d9;
+    font-size: 18px;
+    line-height: 28px;
+    padding-bottom: 16px;
+    font-weight: 600;
+    }
+    
+    .sub-dark-blue a{
+    text-decoration: none;
+    display: block;
+    color: white;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    padding-bottom: 5px;
+    }
+    
+    
+    .copyright button{
+        
+        margin-left: 5px;
+        padding-bottom: 3px;
+        padding: 0px 10px;
+        border-radius: 4px;
+        margin-top: 12px;
+    }
+
+    .card{
+        width: 100%;
+    }
+    
+
+}
