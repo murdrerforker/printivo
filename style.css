@@ -235,6 +235,10 @@ transform: translate(80px , 1px);
     width: 600px;
 } */
 
+.card img:hover{
+    transform: scaley(1.1);
+}
+
 .card img{
     height:230px;
     
